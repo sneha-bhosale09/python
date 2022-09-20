@@ -1,0 +1,18 @@
+n =int(input())
+r =int(input())
+fact = 1
+i = 1
+while i<=n:
+ fact = i * fact
+ i = i+1
+num = fact
+
+sub = n-r
+i = 1
+fact=1
+while i<=sub:
+  fact = i * fact
+  i = i + 1
+denum = fact
+per = num/denum
+print(per)
